@@ -9,15 +9,19 @@ import Blog from "../Components/Blog/Blog";
 
 const Home = () => {
   return (
-    <div>
+      
+        <div style={{width:"100%", overflow:"hidden"}}>
       <Navbar />
       <Video />
       <Story />
       <Nurses />
       <Discounted />
       <Testimonial />
+      <Blog/>
       {/* <Blog /> */}
     </div>
+     
+
   );
 };
 
