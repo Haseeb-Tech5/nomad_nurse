@@ -1,0 +1,193 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+/* 
+@media (max-width: 320px) {
+  .navbar {
+    background-color: #ffffff !important;
+  }
+  .navbar-brand > div > .d-inline-block.align-top {
+    margin-left: 0px !important;
+    height: 27px !important;
+  }
+  .navbar-toggler-icon {
+    font-size: 1rem;
+  }
+  .navbar-toggler {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .navbar {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 2000 !important;
+  }
+} */
+@media (min-width: 320px) and (max-width: 375px) {
+  .navbar {
+    background-color: #ffffff !important;
+    padding: 5px !important;
+  }
+  .navbar-brand > div > .d-inline-block.align-top {
+    margin-left: 0px !important;
+    margin-top: -2px !important;
+    height: 25px !important;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 1rem;
+  }
+  .navbar-toggler {
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+  .navbar {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 2000 !important;
+  }
+}
+@media (min-width: 376px) and (max-width: 600px) {
+  .navbar {
+    background-color: #ffffff !important;
+    padding: 5px !important;
+  }
+  .navbar-brand > div > .d-inline-block.align-top {
+    margin-left: 0px !important;
+    margin-top: -3px !important;
+    height: 25px !important;
+  }
+  .navbar-toggler-icon {
+    font-size: 1rem;
+  }
+  .navbar-toggler {
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+  }
+  .navbar {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 2000 !important;
+  }
+}
+/* @media (min-width: 426px) and (max-width: 768px) {
+  .navbar {
+    background-color: #ffffff !important;
+  }
+  .navbar-brand > div > .d-inline-block.align-top {
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+    height: 33px !important;
+    margin-bottom: 6px;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 1rem;
+  }
+  .navbar-toggler {
+    margin-top: 5px;
+    margin-right: 55px;
+    margin-bottom: 5px;
+  }
+  .navbar {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 2000 !important;
+  }
+} */
+@media (min-width: 601px) and (max-width: 991px) {
+  .navbar {
+    background-color: #ffffff !important;
+    margin-bottom: 12px;
+  }
+  .navbar-brand > div > .d-inline-block.align-top {
+    margin-left: 0px !important;
+    margin-top: 2px !important;
+    height: 26px !important;
+  }
+
+  /* .navbar-brand > img.img1 {
+    margin-left: 0px !important;
+    margin-top: 2px !important  ;
+    height: 12px !important;
+  } */
+  /* .navbar-toggler-icon {
+    font-size: 1rem;
+  } */
+  .responsive-button {
+    margin-bottom: 0px !important;
+    margin-top: 10px !important;
+  }
+  .navbar {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 2000 !important;
+  }
+  .navbar-toggler {
+    margin-top: 5px;
+    /* margin-right: 55px; */
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .navbar {
+    padding: 0px !important;
+    background-color: #ffffff !important;
+  }
+  .navbar-brand > div > .d-inline-block.align-top {
+    height: 42px !important;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+  }
+  /* .navbar-brand > img.img1 {
+    height: 14px !important;
+    margin-left: 0px;
+    margin-top: 0px;
+  } */
+  .navbar-nav .nav-link {
+    font-size: 16px !important;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 10px !important;
+  }
+  .responsive-button {
+    margin-right: 25px !important;
+    margin-top: 10px !important;
+  }
+  .navbar {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 2000 !important;
+  }
+}
+
+/* @media (min-width: 1367px) and (max-width: 1600px) {
+  .navbar {
+    padding: 22px 0px !important;
+    background-color: #ffffff !important;
+  }
+  .navbar-brand > div > .d-inline-block.align-top {
+    height: 43px;
+    margin-left: 0px;
+    margin-top: 0px !important;
+  }
+  .navbar-brand > img.img1 {
+    height: 22px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .navbar-nav .nav-link {
+    font-size: 24px; 
+    font-weight: bold;
+  }
+  .responsive-button {
+    font-size: 23px;
+    margin-right: 10px !important;
+  }
+} */
